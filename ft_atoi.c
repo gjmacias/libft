@@ -18,7 +18,7 @@ int	ft_sign(char *str)
 
 	sign = 1;
 	i = 0;
-	if (str[i] == '+' || str[i] == '-')
+	while (str[i] == '+' || str[i] == '-')
 	{
 		if (str[i] == '-')
 			sign = -sign;
@@ -29,9 +29,9 @@ int	ft_sign(char *str)
 
 int	ft_atoi(const char *str)
 {
-	int	sign;
-	int	i;
-	int	num;
+	int			sign;
+	int			i;
+	long long int	num;
 
 	i = 0;
 	num = 0;
@@ -39,12 +39,14 @@ int	ft_atoi(const char *str)
 		|| str[i] == '\v' || str[i] == '\r' || str[i] == '\f')
 		i++;
 	sign = ft_sign((char *)&str[i]);
-	if (str[i] == '+' || str [i] == '-')
+	while (str[i] == '+' || str [i] == '-')
 		i++;
 	while (str[i] >= '0' && str[i] <= '9')
 	{
 		num = (num * 10) + (str[i] - '0');
+		if (num > INT_MAX || num < INT_MIN)
+		    return (0);
 		i++;
 	}
-	return (num * sign);
+	return ((int)num * sign);
 }
