@@ -10,11 +10,14 @@
 #                                                                              #
 # **************************************************************************** #
 
+# El nombre, en este caso, sera "libft.a". Sera un archivo comprimido con los .o#
+# El "include" incluira todo los .c y tambien el .h, todo sin contar los .o	#
+# El OBJS es quien utiliza el CC para crear y guardar los .o con las CFLAGS	#
+
 NAME		=	libft.a
 INCLUDE		=	./
 
 SRCS		= 	$(wildcard *.c)
-
 OBJS 		=	${SRCS:%.c=%.o}
 
 CC			=	gcc
