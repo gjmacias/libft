@@ -15,7 +15,6 @@
 # El OBJS es quien utiliza el CC para crear y guardar los .o con las CFLAGS	#
 
 NAME		=	libft.a
-INCLUDE		=	./
 
 SRCS		= 	$(wildcard *.c)
 OBJS 		=	${SRCS:%.c=%.o}
@@ -25,26 +24,28 @@ RM			=	rm -rf
 AR			= 	ar rcs
 RN			=	ranlib
 
-CFLAGS		=	-g -Wall -Wextra -Werror -I $(INCLUDE)
+INCLUDE		=	-I ./
+CFLAGS		=	-g -Wall -Wextra -Werror $(INCLUDE)
 
-.PHONY: all clean fclean re
 
-all: $(NAME)
+.PHONY	:	all clean fclean re
 
-$(NAME):	${OBJS} 
+all	:	$(NAME)
+
+$(NAME)	:	${OBJS} 
 	@echo "Compiling libft..."
 	@${AR} ${NAME} ${OBJS}
 	@${RN} ${NAME}
 	@echo "Done !"
 
-clean:
+clean	:
 	@echo "Removing libft objects..."
 	@${RM} ${OBJS}
 	@echo "Done !"
 
-fclean: clean
+fclean	:	clean
 	@echo "Remove libft.a..."
 	@${RM} $(NAME)
 	@echo "Done !"
 
-re: fclean all
+re	:	fclean all
