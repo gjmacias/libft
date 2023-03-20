@@ -23,7 +23,7 @@ int	ft_atoi(const char *str)
 		|| str[i] == '\v' || str[i] == '\r' || str[i] == '\f')
 		i++;
 	sign = ft_sign((char *)&str[i]);
-	if (str[i] == '+' || str [i] == '-')
+	while (str[i] == '+' || str [i] == '-')
 		i++;
 	while (str[i] >= '0' && str[i] <= '9')
 	{
