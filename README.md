@@ -8,7 +8,7 @@ En este proyecto recrearemos desde 0 algunas de las librerias estandar de C, añ
 * [Como utilizamos la libreria?](#como-utilizamos-la-libreria)
 
 ### Que es libft?
-Libft es un projecto de [42][2] donde recreamos algunas de las librerias estandar de C añadiendo algunas nuevas que creando nuestra propia libreria de funciones para utilizarlos en nuestros programas.
+Libft es un projecto de [42][1] donde recreamos algunas de las librerias estandar de C añadiendo algunas nuevas que creando nuestra propia libreria de funciones para utilizarlos en nuestros programas.
 
 Disclaimer: *No reinventamos la rueda. Este ejercision nos ayuda a entender como funcionas algunos algoritmos basicos en profuindidad*
 
