@@ -73,4 +73,5 @@ Luego debes añadirlo en el compilador, primero la ruta de libft.a y luego el no
 -l tomara el nombre de la libreria. en este caso seran los caracteres que vegan despues de `lib` de tu libreria.
 
 y eso seria todo!
+
 [1]: https://www.42barcelona.com/ "42 BCN"
