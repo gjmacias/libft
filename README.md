@@ -22,33 +22,29 @@ Como podrás comprobar, hay 4 secciones:
 
 Funciones Libc |Funciones adicionales | Funciones Bonus | Funciones Personales
 :----------- | :-----------: | :-----------: | -----------:
-memset		| ft_memalloc	| ft_lstnew		| ft_capitalize 
-bzero		| ft_memdel		| ft_lstdelone	| ft_countwords 
-memcpy		| ft_strnew		| ft_lstdel		| ft_islower    
-memccpy		| ft_strdel		| ft_lstadd		| ft_isupper    
-memmove		| ft_strclr		| ft_lstiter	| ft_strndup    
-memchr		| ft_striter	| ft_lstmap		| ft_lst_reverse
-memcmp		| ft_striteri	|				| ft_realloc
-strlen		| ft_strmap		|				| ft_strjoinch
-strdup		| ft_strmapi	|				| ft_strnchr
-strcpy		| ft_strequ		|				| ft_copyuntil
-strncpy		| ft_strnequ	|			| ft_strstartswith
-strcat		| ft_strsub		| | ft_intlen
-strlcat		| ft_strjoin	| | ft_strendswith
-strchr		| ft_strtrim	| | ft_pathjoin
-strrchr		| ft_strsplit	| | ft_lstaddback
-strstr		| ft_itoa		| | get_next_line
-strnstr		| ft_putchar	| | ft_putnstr
-strcmp		| ft_putstr		| | ft_strreplace
-strncmp		| ft_putendl	| | ft_isemptystr
-atoi		| ft_putnbr		| | ft_strsplitall
-isalpha		| ft_putchar_fd	| | ft_countwordsall
-isdigit		| ft_putstr_fd	| | ft_freestrarr
-isalnum		| ft_putendl_fd	| | ft_strjoincl
-isascii		| ft_putnbr_fd	| | ft_strjoinchcl
-isprint		|| | ft_count2darray
-toupper		| | | ft_strarrmax
-tolower		| | | ft_get_parent_path
+atoi		| ft_itoa	| ft_lstadd_back		| ft_error
+bzero		| ft_putchar_fd	| ft_lstadd_front		| ft_sign 
+calloc		| ft_putendl_fd	| ft_lstclear		|  
+isalnum		| ft_putnbr_fd	| ft_lstdelone		|  
+isalpha		| ft_split	| ft_lstiter		|  
+isascii		| ft_striteri	| ft_lstmap		|  
+isdigit		| ft_strjoin		| ft_lstnew	|  
+isprint		| ft_strlcat		| ft_lstsize	|  
+memchr		| ft_strlcpy		| |  
+memcmp		| ft_strmapi		| |  
+memcpy		| ft_strtrim		| |  
+memmove		| ft_substr		| |     
+memset		| | |     
+strchr		| | |     
+strdup		| | | 
+strlcat		| | | 
+strlen		| | | 
+strncmp		| | | 
+strncmp		| | | 
+strnstr		| | | 
+strrchr		| | | 
+tolower		| | | 
+toupper		| | | 
 
 ### Como funciona?
 
