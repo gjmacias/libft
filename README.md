@@ -69,5 +69,16 @@ Luego debes añadirlo en el compilador, primero la ruta de libft.a y luego el no
 -l tomara el nombre de la libreria. en este caso seran los caracteres que vegan despues de `lib` de tu libreria.
 
 y eso seria todo!
+# Quizás pueda interesarte!
+
+### - Para ver mi progresion en 42 🌠
+[AQUÍ](https://github.com/gjmacias/42BCN)
+
+### - Mi perfil de 42 👾
+[AQUÍ](https://profile.intra.42.fr/users/gmacias-)
+
+# Contacto 📥
+
+◦ Email: gmacias-@student.42barcelona.com
 
 [1]: https://www.42barcelona.com/ "42 BCN"
