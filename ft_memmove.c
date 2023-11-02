@@ -9,6 +9,7 @@
 /*   Updated: 2022/02/09 17:54:50 by gmacias-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include <stdlib.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
@@ -35,6 +36,6 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	{
 		a[len - 1] = b[len - 1];
 		len--;
-	}	
+	}
 	return (dst);
 }

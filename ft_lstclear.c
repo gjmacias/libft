@@ -9,7 +9,8 @@
 /*   Updated: 2022/02/16 17:21:25 by gmacias-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include"libft.h"
+
+#include "libft.h"
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
